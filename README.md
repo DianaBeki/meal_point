@@ -182,5 +182,4 @@ credit: credit to Nelson Sakwa the author of the original design
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
->>>>>>> api-testing-styling
+<p align="right">(<a href="#readme-top">back to top</a>
