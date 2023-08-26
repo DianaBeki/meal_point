@@ -114,7 +114,7 @@ To run the project, execute the following command:
 npm run start or live server
 
 ```sh
-  npm start
+  npm run dev
 ```
 
 ### Run tests
