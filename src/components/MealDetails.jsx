@@ -12,9 +12,7 @@ const MealDetails = () => {
       .then((response) => {
         setCategoryDetails(response.data.meals);
       })
-      .catch((error) => {
-        console.error('Error fetching category details:', error);
-      });
+      .catch((error) => error);
   }, [category]);
 
   return (
