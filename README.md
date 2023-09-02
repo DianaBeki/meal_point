@@ -65,6 +65,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+- [Live url](https://unrivaled-khapse-e0bd48.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +114,7 @@ To run the project, execute the following command:
 npm run start or live server
 
 ```sh
-  npm run dev
+  npm run start
 ```
 
 ### Run tests
@@ -121,17 +122,7 @@ npm run start or live server
 To run tests, run the following command:
 
 ```sh
- npx stylelint "**/*.{css,scss}"
-```
-
-### Deployment
-
-You can deploy this project using:
-
-GitHub Pages
-
-```sh
-  []
+ npm test
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
