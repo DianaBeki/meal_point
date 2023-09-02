@@ -5,13 +5,11 @@ import axios from 'axios';
 const MealDetails = () => {
   const { category } = useParams(); // Get the category identifier from URL parameters
   const [categoryDetails, setCategoryDetails] = useState([]);
-  console.log('Category:', category);
 
   useEffect(() => {
     // Fetch the category details based on the category identifier
     axios.get(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${encodeURIComponent(category)}`)
       .then((response) => {
-        console.log('Category details:', response.data);
         setCategoryDetails(response.data.meals);
       })
       .catch((error) => {
@@ -27,8 +25,9 @@ const MealDetails = () => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
           </svg>
         </Link>
-        <h2 className="title">
+        <h2 className="title" data-testid="category-heading">
           More options under
+          {' '}
           {category}
         </h2>
       </div>

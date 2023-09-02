@@ -34,7 +34,7 @@ const MealList = () => {
         </div>
       ) : null}
       {!meal.loading && meal.meals.length ? (
-        <div className="meals">
+        <div className="meals" data-testid="meals-list">
           {meal.meals
             .filter((mealCategory) => mealCategory.strCategory
               .toLowerCase()

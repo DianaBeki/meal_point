@@ -142,7 +142,7 @@ GitHub Pages
 
 👤 **Diana Beki**
 
-- GitHub: [@Github](https://github.com/DianaBeki/anime-verse)
+- GitHub: [@Github](https://github.com/DianaBeki)
 - Twitter: [@Twitter](https://twitter.com/home)
 - LinkedIn: [@LinkedIn](https://www.linkedin.com/in/diana-beki/)
 
