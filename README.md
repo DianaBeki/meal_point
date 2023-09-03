@@ -67,6 +67,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live url](https://unrivaled-khapse-e0bd48.netlify.app/)
 
+- [Presentation Video Link](https://www.loom.com/share/c222b3f3c74846e1ac94f7a281403d92?sid=550d69d7-5f09-4bd8-87bb-bafae5e8d9e6)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
